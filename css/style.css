@@ -15,13 +15,17 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
 }
 
-textarea {
+textarea,
+input[type="text"] {
 	font-size: inherit;
 	width: 100%;
 	border: 1px solid #ccc;
-	min-height: 200px;
 	padding: 15px;
 	margin: 0 0 10px;
+}
+
+textarea {
+	min-height: 200px;
 }
 
 form {
@@ -52,10 +56,4 @@ form {
 
 .button:hover {
 	background: #202020;
-}
-
-form .button {
-	margin: 0 auto;
-	position: relative;
-	display: block;
 }
