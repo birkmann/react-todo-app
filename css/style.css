@@ -1,0 +1,61 @@
+body {
+	margin: 0;
+	font: 300 18px/1.6em 'Roboto Slab','Lucida Bright',Georgia,serif;
+	color: #333;
+}
+
+* {
+	outline: 0 none;
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #313334;
+	font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 700;
+}
+
+textarea {
+	font-size: inherit;
+	width: 100%;
+	border: 1px solid #ccc;
+	min-height: 200px;
+	padding: 15px;
+	margin: 0 0 10px;
+}
+
+form {
+	position: relative;
+}
+
+.wrapper {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.button {
+	border: 0 none;
+	cursor: pointer;
+	background: #E32929;
+	color: #FFF;
+	display: inline-block;
+	outline: 0;
+	padding: 8px 20px;
+	border-radius: 40px;
+	font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	font-size: inherit;
+	text-transform: uppercase;
+	transition-property: background;
+	transition-duration: .4s;
+}
+
+.button:hover {
+	background: #202020;
+}
+
+form .button {
+	margin: 0 auto;
+	position: relative;
+	display: block;
+}

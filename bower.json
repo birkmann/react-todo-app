@@ -1,0 +1,26 @@
+{
+  "name": "react-todo-app",
+  "version": "0.0.1",
+  "homepage": "https://github.com/birkmann/react-todo-app",
+  "description": "A basic ToDoApp using reactJS.",
+  "main": "index.html",
+  "keywords": [
+    "javascript",
+    "react",
+    "reactjs"
+  ],
+  "authors": [
+    "Rafael Birkmann"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "~0.13.3"
+  }
+}
